@@ -1,5 +1,127 @@
-2013-02-20 14:04:22,743 - engine - INFO - Using Shotgun version 3.0.11
-2013-02-20 14:04:22,757 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
-2013-02-20 14:04:24,256 - engine - INFO - Last event id (841490) from the Shotgun database.
-2013-02-20 14:15:58,346 - engine - INFO - Using Shotgun version 3.0.11
-2013-02-20 14:15:58,361 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 10:36:07,882 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 10:37:08,457 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 11:19:02,381 - engine - WARNING - Unable to connect to Shotgun (attempt 1 of 5): Unknown error: 'str' object has no attribute 'get'
+2013-02-21 11:19:02,553 - engine - WARNING - Unable to connect to Shotgun (attempt 2 of 5): Unknown error: 'str' object has no attribute 'get'
+2013-02-21 11:19:02,724 - engine - WARNING - Unable to connect to Shotgun (attempt 3 of 5): Unknown error: 'str' object has no attribute 'get'
+2013-02-21 11:19:02,913 - engine - WARNING - Unable to connect to Shotgun (attempt 4 of 5): Unknown error: 'str' object has no attribute 'get'
+2013-02-21 11:19:03,084 - engine - ERROR - Unable to connect to Shotgun (attempt 5 of 5): Unknown error: 'str' object has no attribute 'get'
+2013-02-21 11:22:42,138 - engine - WARNING - Unable to connect to Shotgun (attempt 1 of 5): Unknown error: Uncaught exception! PGError: :             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = 'event_log_entries'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+2013-02-21 11:23:42,808 - engine - WARNING - Unable to connect to Shotgun (attempt 2 of 5): <ProtocolError for bait.shotgunstudio.com: 500 Internal Server Error>
+2013-02-21 11:24:43,476 - engine - WARNING - Unable to connect to Shotgun (attempt 3 of 5): <ProtocolError for bait.shotgunstudio.com: 500 Internal Server Error>
+2013-02-21 11:53:53,671 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 11:55:55,678 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 11:58:50,476 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 11:59:44,592 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:00:38,772 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:01:17,335 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:01:55,821 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:02:34,851 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:03:18,562 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:05:00,056 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:09:27,565 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:09:45,052 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:16:06,020 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:19:46,792 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:20:42,701 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:21:10,486 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:23:24,880 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:25:33,438 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:27:10,986 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:28:53,088 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:31:28,292 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:32:28,509 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:35:22,183 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:37:25,266 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:39:23,765 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:40:33,605 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:43:08,404 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:44:02,520 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:47:29,096 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:50:30,259 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:54:17,739 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:57:37,450 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 12:57:37,463 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 12:57:38,259 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 12:57:41,084 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 12:58:13,627 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 14:06:24,694 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 14:06:59,062 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 14:07:06,815 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 14:07:06,831 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 14:07:07,625 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 14:07:11,292 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 14:07:48,295 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 14:07:53,365 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 14:07:53,381 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 14:07:55,221 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 14:07:59,589 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 14:08:40,992 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 14:11:08,302 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 14:11:08,319 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 14:11:09,005 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 14:11:11,796 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 14:11:24,933 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 14:12:25,865 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 14:12:25,881 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 14:12:26,598 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 14:12:29,470 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 14:15:12,568 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 14:15:21,522 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 14:15:21,538 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 14:15:22,286 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 14:15:25,141 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 14:16:34,499 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 14:18:40,407 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 14:18:40,421 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 14:18:41,140 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 14:18:43,917 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 14:47:37,934 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:04:42,198 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:05:36,940 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 15:05:43,335 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 15:05:43,335 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 15:05:44,131 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 15:05:47,079 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:06:02,226 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 15:07:35,994 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 15:07:36,009 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 15:07:36,691 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 15:07:39,526 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:09:57,394 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:10:47,782 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:10:58,644 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 15:13:10,048 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 15:13:10,063 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 15:13:10,719 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 15:13:13,496 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:14:09,812 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:16:39,151 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:17:01,677 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:18:00,987 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:19:11,858 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:20:21,217 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:20:41,901 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 15:20:50,857 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 15:20:50,871 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 15:20:51,559 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 15:20:54,319 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:21:23,928 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 15:21:33,678 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 15:21:33,694 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 15:21:34,365 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 15:21:37,157 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:23:10,009 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:24:47,743 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:25:33,450 - engine - WARNING - Keyboard interrupt. Cleaning up...
+2013-02-21 15:25:44,667 - engine - INFO - Using Shotgun version 3.0.11
+2013-02-21 15:25:44,667 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\logArgs.py
+2013-02-21 15:25:45,368 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\folderCreator.py
+2013-02-21 15:25:48,318 - engine - INFO - Loading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:26:05,165 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py
+2013-02-21 15:29:35,500 - engine - INFO - Reloading plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py

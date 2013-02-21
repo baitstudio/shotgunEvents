@@ -1,0 +1,1295 @@
+2013-02-21 11:53:53,717 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33
+    file_name = 'testfile'.ma'
+                             ^
+SyntaxError: EOL while scanning string literal
+
+2013-02-21 11:55:55,694 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33
+    if changed_task!='':
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 11:58:50,493 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33
+    if changed_task!='':
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 11:59:44,608 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 32
+    file_name = 'testfile'.ma'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:00:38,788 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 32
+    file_name = 'testfile'.ma'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:01:17,351 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 32
+    file_name = 'testfile'.ma'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:01:55,835 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 32
+    file_name = testfile'.ma'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:02:34,867 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 32
+    file_name = testfile + '.ma'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:03:18,578 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 32
+    file_name = changed_task + '.ma'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:05:00,072 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 32
+    file_name = changed_task + '.ma'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:09:27,581 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 31
+    changed_task = sg.find('Shot', filters)
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:09:45,069 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 31
+    changed_task = sg.find('Shot', filters)
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:17:07,828 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 31, in makeFile
+    changed_task = sg.find('Shot', filters)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 415, in find
+    filters = _translate_filters(filters, filter_operator)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1758, in _translate_filters
+    return _translate_filters_dict(wrapped_filters)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1774, in _translate_filters_dict
+    new_filters["conditions"] = _translate_filters_list(sg_filter["filters"])
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1785, in _translate_filters_list
+    conditions.append(_translate_filters_dict(sg_filter))
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1769, in _translate_filters_dict
+    raise ShotgunError("Invalid filter_operator %s" % filter_operator)
+ShotgunError: Invalid filter_operator is
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'Track', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841610,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'cmpt',
+                    'old_value': 'rdy',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '89132540-7c20-11e2-a5fe-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'is',
+              'filters': ['project', 'is', {'id': 99, 'type': 'project'}]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000034DF080>}
+2013-02-21 12:19:52,969 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 31, in makeFile
+    changed_task = sg.find('Shot', filters)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 415, in find
+    filters = _translate_filters(filters, filter_operator)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1758, in _translate_filters
+    return _translate_filters_dict(wrapped_filters)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1774, in _translate_filters_dict
+    new_filters["conditions"] = _translate_filters_list(sg_filter["filters"])
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1785, in _translate_filters_list
+    conditions.append(_translate_filters_dict(sg_filter))
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1774, in _translate_filters_dict
+    new_filters["conditions"] = _translate_filters_list(sg_filter["filters"])
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1787, in _translate_filters_list
+    raise ShotgunError("Invalid filters, expected a list, tuple or dict, got %s" % sg_filter)
+ShotgunError: Invalid filters, expected a list, tuple or dict, got project
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'Track', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841612,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'cmpt',
+                    'old_value': 'ip',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '89132540-7c20-11e2-a5fe-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': ['project', 'is', {'id': 99, 'type': 'project'}]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000034EFDA0>}
+2013-02-21 12:20:42,717 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 25
+    ['project', 'is', {'type':'project', 'id': event['project']['id']]}
+                                                                     ^
+SyntaxError: invalid syntax
+
+2013-02-21 12:21:33,198 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 31, in makeFile
+    changed_task = sg.find('Shot', filters)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 446, in find
+    result = self._call_rpc("read", params)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1260, in _call_rpc
+    self._response_errors(response)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1456, in _response_errors
+    "Unknown Error"))
+Fault: API read() invalid/missing entity hash string 'type':
+{"type"=>"project", "id"=>99}
+Valid entity types:
+["ActionMenuItem",
+ "ApiUser",
+ "AppWelcomeUserConnection",
+ "Asset",
+ "AssetAssetConnection",
+ "AssetBlendshapeConnection",
+ "AssetElementConnection",
+ "AssetMocapTakeConnection",
+ "AssetSceneConnection",
+ "AssetSequenceConnection",
+ "AssetShootDayConnection",
+ "AssetShotConnection",
+ "Attachment",
+ "BannerUserConnection",
+ "Booking",
+ "CameraMocapTakeConnection",
+ "CutVersionConnection",
+ "Department",
+ "ElementShotConnection",
+ "EventLogEntry",
+ "Group",
+ "GroupUserConnection",
+ "HumanUser",
+ "Icon",
+ "LaunchSceneConnection",
+ "LaunchShotConnection",
+ "LocalStorage",
+ "MocapTakeRangeShotConnection",
+ "Note",
+ "Page",
+ "PageHit",
+ "PageSetting",
+ "PerformerMocapTakeConnection",
+ "PerformerRoutineConnection",
+ "PerformerShootDayConnection",
+ "PermissionRuleSet",
+ "Phase",
+ "PhysicalAssetMocapTakeConnection",
+ "Playlist",
+ "PlaylistVersionConnection",
+ "Project",
+ "ProjectUserConnection",
+ "PublishEvent",
+ "ReleaseTicketConnection",
+ "Reply",
+ "RevisionRevisionConnection",
+ "RevisionTicketConnection",
+ "Scene",
+ "Sequence_sg_episodes_Connection",
+ "ShootDaySceneConnection",
+ "Shot",
+ "ShotShotConnection",
+ "Shot_sg_episodes_Connection",
+ "Status",
+ "Step",
+ "Task",
+ "TaskDependency",
+ "TaskTemplate",
+ "Ticket",
+ "TicketTicketConnection",
+ "TimeLog",
+ "Version"]
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'Track', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841613,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'ip',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '89132540-7c20-11e2-a5fe-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000002FAF048>}
+2013-02-21 12:23:36,549 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 31, in makeFile
+    changed_task = sg.find('Shot', filters)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 446, in find
+    result = self._call_rpc("read", params)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1260, in _call_rpc
+    self._response_errors(response)
+  File "Z:\_CORE\Shotgun\python-api\shotgun_api3\shotgun.py", line 1456, in _response_errors
+    "Unknown Error"))
+Fault: Can't authenticate script 'shotgunEventDeamon'
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'Track', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841615,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'ip',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '89132540-7c20-11e2-a5fe-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000034EFA90>}
+2013-02-21 12:25:56,246 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 35, in makeFile
+    file = open(temp_path, 'w')
+IOError: [Errno 2] No such file or directory: 'C:\\temp\\testfile.ma'
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'Track', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841618,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'hld',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file_name': 'testfile.ma',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000003501128>,
+ 'temp_path': 'C:\\temp\\testfile.ma'}
+2013-02-21 12:27:17,335 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 35, in makeFile
+    file = open(temp_path, 'w+')
+IOError: [Errno 2] No such file or directory: 'C:\\temp\\testfile.ma'
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'Track', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841620,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'fin',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file_name': 'testfile.ma',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000034FC828>,
+ 'temp_path': 'C:\\temp\\testfile.ma'}
+2013-02-21 12:29:04,851 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 35, in makeFile
+    file = open(temp_path, 'w+')
+IOError: [Errno 2] No such file or directory: 'C:\\temp\\testfile.txt'
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'Track', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841622,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'fin',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file_name': 'testfile.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000034FC978>,
+ 'temp_path': 'C:\\temp\\testfile.txt'}
+2013-02-21 12:31:34,641 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 35, in makeFile
+    file = open(temp_path, 'w+')
+IOError: [Errno 2] No such file or directory: 'C:/temp/testfile.txt'
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'Track', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841624,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'fin',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file_name': 'testfile.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000034DF4A8>,
+ 'temp_path': 'C:/temp/testfile.txt'}
+2013-02-21 12:35:33,726 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 35, in makeFile
+    file = open(temp_path, 'w+')
+IOError: [Errno 2] No such file or directory: 'C:/temp/testfile.txt'
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841627,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'ip',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file_name': 'testfile.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000034EFC88>,
+ 'temp_path': 'C:/temp/testfile.txt'}
+2013-02-21 12:37:36,983 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 36, in makeFile
+    file.write(changed_task)
+TypeError: argument 1 must be string or read-only character buffer, not list
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841629,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'hld',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testfile.txt', mode 'w+' at 0x0000000002E3FA48>,
+ 'file_name': 'testfile.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000034FCE48>,
+ 'temp_path': 'Z:/scripts/testfile.txt'}
+2013-02-21 12:39:23,780 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33
+    text = 'test write'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:40:45,430 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 37, in makeFile
+    file.write(changed_task + text)
+TypeError: can only concatenate list (not "str") to list
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841633,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'fin',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testfile.txt', mode 'w' at 0x0000000002E3FA48>,
+ 'file_name': 'testfile.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000002FBE9C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000034EFF98>,
+ 'temp_path': 'Z:/scripts/testfile.txt',
+ 'text': 'test write'}
+2013-02-21 12:43:08,421 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33
+    for task in changed_task:
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:44:02,536 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33
+    for task in changed_task:
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:47:29,111 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 34
+    file_name = 'testfile2.txt'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:50:30,275 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 23
+    file_name = 'testfile2.txt'
+   ^
+IndentationError: unexpected indent
+
+2013-02-21 12:58:22,085 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33, in makeFile
+    file.write(changed_task[0])
+IndexError: list index out of range
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841639,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'hld',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testfile2.txt', mode 'w' at 0x0000000002E43A48>,
+ 'file_name': 'testfile2.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x000000000307C848>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000002F93C88>,
+ 'temp_path': 'Z:/scripts/testfile2.txt',
+ 'text': 'test'}
+2013-02-21 14:06:29,780 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33, in makeFile
+    file.write(changed_task['sg_status_list'])
+TypeError: list indices must be integers, not str
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841639,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'hld',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testfile2.txt', mode 'w' at 0x0000000002E43AD0>,
+ 'file_name': 'testfile2.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x000000000307C848>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000003166198>,
+ 'temp_path': 'Z:/scripts/testfile2.txt',
+ 'text': 'test'}
+2013-02-21 14:07:12,477 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33, in makeFile
+    file.write(changed_task['sg_status_list'])
+TypeError: list indices must be integers, not str
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841639,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'hld',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testfile2.txt', mode 'w' at 0x0000000002EC3A48>,
+ 'file_name': 'testfile2.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x00000000030FC848>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000003013DA0>,
+ 'temp_path': 'Z:/scripts/testfile2.txt',
+ 'text': 'test'}
+2013-02-21 14:08:00,775 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33, in makeFile
+    file.write(changed_task['sg_status_list'])
+TypeError: list indices must be integers, not str
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841639,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'hld',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testfile2.txt', mode 'w' at 0x0000000002F13A48>,
+ 'file_name': 'testfile2.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x000000000314C848>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000003063DA0>,
+ 'temp_path': 'Z:/scripts/testfile2.txt',
+ 'text': 'test'}
+2013-02-21 14:11:13,591 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 33, in makeFile
+    file.write(event)
+TypeError: argument 1 must be string or read-only character buffer, not dict
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841639,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'hld',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': 'cbb9b55c-7c21-11e2-8b5b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testfile2.txt', mode 'w' at 0x0000000002E11A48>,
+ 'file_name': 'testfile2.txt',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x000000000305F0C8>,
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000002F73C50>,
+ 'temp_path': 'Z:/scripts/testfile2.txt',
+ 'text': 'test'}
+2013-02-21 14:47:38,075 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 11, in <module>
+    import yaml
+ImportError: No module named yaml
+
+2013-02-21 15:04:42,371 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 11, in <module>
+    import yaml
+ImportError: No module named yaml
+
+2013-02-21 15:05:47,157 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 11, in <module>
+    import yaml
+ImportError: No module named yaml
+
+2013-02-21 15:08:31,160 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 35, in makeFile
+    file.close()
+TypeError: descriptor 'close' of 'file' object needs an argument
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841645,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'fin',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000003170248>,
+ 'newValue': 'fin',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x000000000311BE80>}
+2013-02-21 15:09:58,683 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 35, in makeFile
+    exportfile.close()
+UnboundLocalError: local variable 'exportfile' referenced before assignment
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841645,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'fin',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000003170248>,
+ 'newValue': 'fin',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000003399828>}
+2013-02-21 15:10:49,104 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 35, in makeFile
+    file.close()
+UnboundLocalError: local variable 'file' referenced before assignment
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841645,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'fin',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000003170248>,
+ 'newValue': 'fin',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000033A32E8>}
+2013-02-21 15:13:16,023 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 36, in makeFile
+    stream.close()
+UnboundLocalError: local variable 'stream' referenced before assignment
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841645,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'fin',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x00000000031A5208>,
+ 'newValue': 'fin',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000002FBAE80>}
+2013-02-21 15:14:11,013 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 34, in makeFile
+    file = open(temp_path, 'w')
+UnboundLocalError: local variable 'temp_path' referenced before assignment
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841645,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'fin',
+                    'old_value': 'cmpt',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x00000000031A5208>,
+ 'newValue': 'fin',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000002E9CDA0>}
+2013-02-21 15:16:39,165 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 32
+    file_name = 'testEvent.yml'
+                              
+^
+IndentationError: unindent does not match any outer indentation level
+
+2013-02-21 15:17:01,693 - plugin.fileCreate - ERROR - Could not load the plugin at Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 695, in load
+    plugin = imp.load_source(self._pluginName, self._path)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 30
+    file_name = 'testEvent.yml'
+                              
+^
+IndentationError: unindent does not match any outer indentation level
+
+2013-02-21 15:19:26,898 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 26, in makeFile
+    file.write(changed_task)
+TypeError: argument 1 must be string or read-only character buffer, not list
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841652,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'cmpt',
+                    'old_value': 'ip',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testEvent.yml', mode 'w' at 0x0000000002D55E00>,
+ 'file_name': 'testEvent.yml',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x00000000031A5208>,
+ 'newValue': 'cmpt',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000031FA198>,
+ 'temp_path': 'Z:/scripts/testEvent.yml'}
+2013-02-21 15:20:22,448 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 26, in makeFile
+    file.write(changed_task['meta']['new_value'])
+TypeError: list indices must be integers, not str
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841652,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'cmpt',
+                    'old_value': 'ip',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testEvent.yml', mode 'w' at 0x00000000031B63E8>,
+ 'file_name': 'testEvent.yml',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x00000000031A5208>,
+ 'newValue': 'cmpt',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000031FFE10>,
+ 'temp_path': 'Z:/scripts/testEvent.yml'}
+2013-02-21 15:20:56,487 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 26, in makeFile
+    file.write(changed_task['meta']['new_value'])
+TypeError: list indices must be integers, not str
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841652,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'cmpt',
+                    'old_value': 'ip',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testEvent.yml', mode 'w' at 0x0000000002C95E00>,
+ 'file_name': 'testEvent.yml',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x00000000030E5248>,
+ 'newValue': 'cmpt',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000002EFACC0>,
+ 'temp_path': 'Z:/scripts/testEvent.yml'}
+2013-02-21 15:21:38,826 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 26, in makeFile
+    file.write(changed_task['meta']['new_value'])
+TypeError: list indices must be integers, not str
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841652,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'cmpt',
+                    'old_value': 'ip',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testEvent.yml', mode 'w' at 0x0000000002E45E00>,
+ 'file_name': 'testEvent.yml',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000003295248>,
+ 'newValue': 'cmpt',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x00000000030AACC0>,
+ 'temp_path': 'Z:/scripts/testEvent.yml'}
+2013-02-21 15:23:11,194 - plugin.fileCreate.makeFile - CRITICAL - An error occured processing an event.
+
+Traceback (most recent call last):
+  File "Z:\_CORE\Shotgun\shotgunEvents\src\shotgunEventDaemon.py", line 888, in process
+    self._callback(self._shotgun, self._logger, event, self._args)
+  File "Z:/_CORE/Shotgun/shotgunEvents/src/plugins\fileCreate.py", line 26, in makeFile
+    file.write(event)
+TypeError: argument 1 must be string or read-only character buffer, not dict
+
+
+Local variables at outer most frame in plugin:
+
+{'args': None,
+ 'changed_task': [],
+ 'event': {'attribute_name': 'sg_status_list',
+           'entity': {'id': 14164, 'name': 'TrackShot', 'type': 'Task'},
+           'event_type': 'Shotgun_Task_Change',
+           'id': 841652,
+           'meta': {'attribute_name': 'sg_status_list',
+                    'entity_id': 14164,
+                    'entity_type': 'Task',
+                    'new_value': 'cmpt',
+                    'old_value': 'ip',
+                    'type': 'attribute_change'},
+           'project': {'id': 99,
+                       'name': 'Grandpa In My Pocket',
+                       'type': 'Project'},
+           'session_uuid': '7fb25828-7c38-11e2-8f3b-0025900053ca',
+           'type': 'EventLogEntry',
+           'user': {'id': 101, 'name': 'Milan Kolar', 'type': 'HumanUser'}},
+ 'file': <open file 'Z:/scripts/testEvent.yml', mode 'w' at 0x0000000002E45E00>,
+ 'file_name': 'testEvent.yml',
+ 'filters': [['sg_status_list', 'is', 'cmpt'],
+             {'filter_operator': 'all',
+              'filters': [['project', 'is', {'id': 99, 'type': 'Project'}]]}],
+ 'logger': <logging.Logger instance at 0x0000000003295248>,
+ 'newValue': 'cmpt',
+ 'sg': <shotgun_api3.shotgun.Shotgun object at 0x0000000002F8CC50>,
+ 'temp_path': 'Z:/scripts/testEvent.yml'}
