@@ -1,3 +1,4 @@
 docs/_build/doctrees
+log
 shotgunEventDaemon.conf
 *.pyc
