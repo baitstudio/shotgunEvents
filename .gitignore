@@ -1,6 +1,6 @@
 docs/_build/doctrees
 log
-shotgunEventDaemon.conf
+*.conf
 *.pyc
 *.project
 *.pydevproject
