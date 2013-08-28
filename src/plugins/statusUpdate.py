@@ -18,8 +18,8 @@ def versionUpdate(sg, logger, event, args):
     
     #getting shot
     filters = [['id','is',version['entity']['id']]]
-    fields=[]
-    shot=sg.find_one('Shot',filters)
+    fields=['code']
+    shot=sg.find_one('Shot',filters,fields)
     
     #setting status
     newStatus=event['meta']['new_value']
@@ -28,17 +28,17 @@ def versionUpdate(sg, logger, event, args):
     if newStatus=='rev':
         #getting task
         filters = [['id','is',version['sg_task']['id']]]
-        fields=[]
-        task=sg.find_one('Task',filters)
+        fields=['content']
+        task=sg.find_one('Task',filters,fields)
         
         sg.update("Task",task['id'], data={'sg_status_list' : 'cmpt'})
-        logger.info("Set Task #%s to '%s'" % (shot['id'],'cmpt'))
+        logger.info("Set Task #%s/%s to '%s'" % (task['id'],task['content'],'cmpt'))
     
     #if its a shot and not an asset
     if shot:
         #changing shot status
         sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
-        logger.info("Set Shot #%s to '%s'" % (shot['id'],newStatus))
+        logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))
 
 def taskUpdate(sg, logger, event, args):
     
@@ -53,8 +53,8 @@ def taskUpdate(sg, logger, event, args):
     
     #getting shot
     filters = [['id','is',task['entity']['id']]]
-    fields=[]
-    shot=sg.find_one('Shot',filters)
+    fields=['code']
+    shot=sg.find_one('Shot',filters,fields)
     
     #setting status
     newStatus=event['meta']['new_value']
@@ -63,4 +63,4 @@ def taskUpdate(sg, logger, event, args):
     if shot:
         #changing shot status
         sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
-        logger.info("Set Shot #%s to '%s'" % (shot['id'],newStatus))
+        logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))
