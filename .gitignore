@@ -4,4 +4,4 @@ log
 *.pyc
 *.project
 *.pydevproject
-src/shotgunEventDaemon.conf
+src\shotgunEventDaemon.conf
