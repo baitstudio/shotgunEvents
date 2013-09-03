@@ -16,14 +16,14 @@ def versionUpdate(sg, logger, event, args):
     fields=['entity','sg_task']
     version=sg.find_one('Version',filters,fields)
     
-    #getting shot
-    filters = [['id','is',version['entity']['id']]]
-    fields=['code']
-    shot=sg.find_one('Shot',filters,fields)
-    
     #if its a shot and not an asset
-    if shot:
+    if version['entity']['type']=='Shot':
     
+        #getting shot
+        filters = [['id','is',version['entity']['id']]]
+        fields=['code']
+        shot=sg.find_one('Shot',filters,fields)
+        
         #setting status
         newStatus=event['meta']['new_value']
         
@@ -37,9 +37,9 @@ def versionUpdate(sg, logger, event, args):
             sg.update("Task",task['id'], data={'sg_status_list' : 'cmpt'})
             logger.info("Set Task #%s/%s to '%s'" % (task['id'],task['content'],'cmpt'))
             
-            #changing shot status
-            sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
-            logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))
+        #changing shot status
+        sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
+        logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))
 
 def taskUpdate(sg, logger, event, args):
     
