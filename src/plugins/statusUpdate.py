@@ -44,24 +44,33 @@ def versionUpdate(sg, logger, event, args):
 def taskUpdate(sg, logger, event, args):
     
     #getting task
-    filters = [['id','is',event['entity']['id']]]
-    fields=['entity','step']
-    task=sg.find_one('Task',filters,fields)
+    try:
+        filters = [['id','is',event['entity']['id']]]
+        fields=['entity','step']
+        task=sg.find_one('Task',filters,fields)
+    except:
+        logger.info("Event #%s failed:\n%s" % (event['id'],event))
+        
+        return
     
     #exception for light task when put to cmpt
     if task['step']['name'] == 'Light' and event['meta']['new_value'] == 'cmpt':
         return
     
-    #getting shot
-    filters = [['id','is',task['entity']['id']]]
-    fields=['code']
-    shot=sg.find_one('Shot',filters,fields)
-    
     #setting status
     newStatus=event['meta']['new_value']
     
     #if its a shot and not an asset
-    if shot:
-        #changing shot status
-        sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
-        logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))
+    try:
+        if task['entity']['type']=='Shot':
+            
+            #getting shot
+            filters = [['id','is',task['entity']['id']]]
+            fields=['code']
+            shot=sg.find_one('Shot',filters,fields)
+            
+            #changing shot status
+            sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
+            logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))#
+    except:
+        logger.info("Task #%s/%s failed!" % (task['id'],task['content']))
