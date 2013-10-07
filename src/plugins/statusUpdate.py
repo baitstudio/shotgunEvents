@@ -33,15 +33,15 @@ def versionUpdate(sg, logger, event, args):
             #setting status
             newStatus=event['meta']['new_value']
             
-            #task updating to cmpt when version is on rev
-            if newStatus=='rev':
+            #task updating to rned when version is on rned
+            if newStatus=='rned':
                 #getting task
                 filters = [['id','is',version['sg_task']['id']]]
                 fields=['content']
                 task=sg.find_one('Task',filters,fields)
                 
-                sg.update("Task",task['id'], data={'sg_status_list' : 'cmpt'})
-                logger.info("Set Task #%s/%s to '%s'" % (task['id'],task['content'],'cmpt'))
+                sg.update("Task",task['id'], data={'sg_status_list' : 'rned'})
+                logger.info("Set Task #%s/%s to '%s'" % (task['id'],task['content'],'rned'))
                 
             #changing shot status
             sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
@@ -61,12 +61,12 @@ def taskUpdate(sg, logger, event, args):
         
         return
     
-    #exception for light task when put to cmpt
-    if task['step']['name'] == 'Light' and event['meta']['new_value'] == 'cmpt':
-        return
-    
     #setting status
     newStatus=event['meta']['new_value']
+    
+    #exception for rendered status update
+    if newStatus=='rned':
+        return
     
     #if its a shot and not an asset
     try:
@@ -77,8 +77,30 @@ def taskUpdate(sg, logger, event, args):
             fields=['code']
             shot=sg.find_one('Shot',filters,fields)
             
+            #artist reviewing the renders, and puts it on complete
+            check=False
+            if task['step']['name'] == 'Light' and newStatus=='cmpt':
+                check=True
+            if task['step']['name'] == 'Comp' and newStatus=='cmpt':
+                check=True
+            
+            if check:
+                
+                filters = [['entity','is',shot]]
+                fields=['code','sg_status_list']
+                versions=sg.find('Version',filters,fields)
+                
+                for version in versions:
+                    
+                    if version['sg_status_list']=='rned':
+                        
+                        sg.update("Version",version['id'], data={'sg_status_list' : 'rev'})
+                        logger.info("Set Version #%s/%s to '%s'" % (version['id'],version['code'],'rev'))
+                
+                return
+            
             #changing shot status
             sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
-            logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))#
+            logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))
     except:
         logger.info("Task #%s/%s failed!" % (task['id'],task['content']))
