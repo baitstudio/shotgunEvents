@@ -37,11 +37,20 @@ def versionUpdate(sg, logger, event, args):
             if newStatus=='rned':
                 #getting task
                 filters = [['id','is',version['sg_task']['id']]]
-                fields=['content']
+                fields=['content','step']
                 task=sg.find_one('Task',filters,fields)
                 
-                sg.update("Task",task['id'], data={'sg_status_list' : 'rned'})
-                logger.info("Set Task #%s/%s to '%s'" % (task['id'],task['content'],'rned'))
+                #if its a Comp task, set task to complete and version to rev
+                if task['step']['name'] == 'Comp':
+                    sg.update("Task",task['id'], data={'sg_status_list' : 'cmpt'})
+                    logger.info("Set Task #%s/%s to '%s'" % (task['id'],task['content'],'cmpt'))
+                            
+                    sg.update("Version",version['id'], data={'sg_status_list' : 'rev'})
+                    logger.info("Set Version #%s/%s to '%s'" % (version['id'],version['code'],'rev'))
+                #everything else and task gets set to rned
+                else:
+                    sg.update("Task",task['id'], data={'sg_status_list' : 'rned'})
+                    logger.info("Set Task #%s/%s to '%s'" % (task['id'],task['content'],'rned'))
                 
             #changing shot status
             sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
@@ -78,13 +87,8 @@ def taskUpdate(sg, logger, event, args):
             shot=sg.find_one('Shot',filters,fields)
             
             #artist reviewing the renders, and puts it on complete
-            check=False
+            #only light step is affected
             if task['step']['name'] == 'Light' and newStatus=='cmpt':
-                check=True
-            if task['step']['name'] == 'Comp' and newStatus=='cmpt':
-                check=True
-            
-            if check:
                 
                 filters = [['entity','is',shot]]
                 fields=['code','sg_status_list']
