@@ -33,12 +33,13 @@ def versionUpdate(sg, logger, event, args):
             #setting status
             newStatus=event['meta']['new_value']
             
+            #getting task
+            filters = [['id','is',version['sg_task']['id']]]
+            fields=['content','step']
+            task=sg.find_one('Task',filters,fields)
+            
             #task updating to rned when version is on rned
             if newStatus=='rned':
-                #getting task
-                filters = [['id','is',version['sg_task']['id']]]
-                fields=['content','step']
-                task=sg.find_one('Task',filters,fields)
                 
                 #if its a Comp task, set task to complete and version to rev
                 if task['step']['name'] == 'Comp':
@@ -51,6 +52,12 @@ def versionUpdate(sg, logger, event, args):
                 else:
                     sg.update("Task",task['id'], data={'sg_status_list' : 'rned'})
                     logger.info("Set Task #%s/%s to '%s'" % (task['id'],task['content'],'rned'))
+            
+            #updating task if version are requeud on farm
+            if newStatus=='rnd' or newStatus=='qrnd':
+                
+                sg.update("Task",task['id'], data={'sg_status_list' : 'farm'})
+                logger.info("Set Task #%s/%s to '%s'" % (task['id'],task['content'],'farm'))
                 
             #changing shot status
             sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
