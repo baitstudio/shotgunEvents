@@ -63,9 +63,13 @@ def versionUpdate(sg, logger, event, args):
             sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
             logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))
     except:
-        logger.info("Version #%s/%s failed!" % (version['id'],version['entity']['name']))
+        logger.info("Version #%s failed: %s" % (version['id'],version))
 
 def taskUpdate(sg, logger, event, args):
+    
+    #ignoring newly created tasks
+    if not event['meta']['old_value']:
+        return
     
     #getting task
     try:
@@ -114,4 +118,4 @@ def taskUpdate(sg, logger, event, args):
             sg.update("Shot",shot['id'], data={'sg_status_list' : newStatus})
             logger.info("Set Shot #%s/%s to '%s'" % (shot['id'],shot['code'],newStatus))
     except:
-        logger.info("Task #%s/%s failed!" % (task['id'],task['content']))
+        logger.info("Task #%s failed: %s" % (task['id'],task))
