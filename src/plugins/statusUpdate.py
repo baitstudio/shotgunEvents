@@ -21,6 +21,12 @@ def versionUpdate(sg, logger, event, args):
         
         return
     
+    #fail safe for logging
+    try:
+        version['id']
+    except:
+        logger.info("Event #%s failed:\n%s" % (event['id'],event))
+    
     #if its a shot and not an asset
     try:
         if version['entity']['type']=='Shot':
