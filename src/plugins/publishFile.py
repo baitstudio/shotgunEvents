@@ -6,7 +6,7 @@ def registerCallbacks(reg):
     #version
     matchEvents = {'Shotgun_Task_Change': ['sg_status_list']}
     
-    reg.registerCallback('shotgunEventDaemon', 'e9f5a6858b086219257a432bc7e0a4b304d64ab4', publishUpdate, matchEvents, None)
+    reg.registerCallback('shotgunEventDaemon', 'e9f5a6858b086219257a432bc7e0a4b304d64ab4', publishWorkFile, matchEvents, None)
 
 def getUnpublishedFiles(work_path,publish_path,exclusions=None):
     
@@ -37,7 +37,7 @@ def getUnpublishedFiles(work_path,publish_path,exclusions=None):
     
     return unpublished_files
 
-def publishUpdate(sg, logger, event, args):
+def publishWorkFile(sg, logger, event, args):
     
     try:
         #getting task info
@@ -115,5 +115,5 @@ def publishUpdate(sg, logger, event, args):
         
         
         logger.info('Published files for %s/%s:%s' % (shot['code'],task['step']['name'],str(unpublished_files)))
-    except:
-        logger.info("Event #%s failed:\n%s" % (event['id'],event))
+    except Exception,e:
+        logger.info("Event #%s failed:\n%s\nerror:\n%s" % (event['id'],event,e))
